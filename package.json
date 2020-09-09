@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-to-do",
+  "version": "1.0.0",
+  "description": "I want to be a node master.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obazure/nodejs-to-do.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "master"
+  ],
+  "author": "Obazure <conprefor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obazure/nodejs-to-do/issues"
+  },
+  "homepage": "https://github.com/Obazure/nodejs-to-do#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
